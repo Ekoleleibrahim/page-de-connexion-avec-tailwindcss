@@ -1,0 +1,75 @@
+@tailwind base;
+
+body{
+    @apply w-full h-screen flex justify-center items-center bg-gray-200;
+    background-image: url(../images/pexels-michalmarek-1774389.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    @apply text-3xl font-mono font-normal text-center mb-3;
+}
+h1::first-letter{
+    @apply text-[40px] font-medium;
+}
+.para{
+    @apply mb-[10px] text-gray-600 text-[18px];
+}
+span{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+span::after{
+    @apply content-['*'] text-red-600 font-bold ml-1;
+}
+input{
+    @apply border border-gray-400 rounded-sm w-full px-2 py-[10px];
+}
+input:focus{
+    @apply outline-none border-blue-400 border-2;
+}
+.google{
+    margin-bottom: 0;
+}
+
+
+@tailwind components;
+
+.container-form{
+    @apply w-[500px] bg-white py-10 px-[25px];
+}
+
+.message-email{
+    @apply text-opacity-60 text-red-600;
+}
+
+.connexion{
+    @apply w-full text-center outline-none border-none bg-blue-600 hover:bg-blue-700 p-3 mt-2 text-white;
+}
+
+
+@tailwind utilities;
+
+@layer utilities{
+    .container-inscription{
+        @apply text-center mt-2;
+    }
+    .lien-inscription{
+        @apply underline hover:text-blue-950 active:text-blue-600 visited:text-gray-950
+    }
+
+    .bordure-reduit{
+        @apply rounded-lg;
+    }
+    .liens{
+        @apply block p-3 border border-blue-400 mb-2 rounded-md bg-no-repeat bg-[2em_center];
+    }
+    .google{
+        background-image: url(../images/Google.ico);
+    }
+    .github{
+        background-image: url(../images/GitHub.ico);
+    }
+}
