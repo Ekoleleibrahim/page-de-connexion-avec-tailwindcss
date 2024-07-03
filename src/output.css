@@ -718,48 +718,8 @@ input:focus {
 }
 
 @media not all and (min-width: 640px) {
-  .max-sm\:rounded-2xl {
-    border-radius: 1rem;
-  }
-
-  .max-sm\:rounded-\[\] {
-    border-radius: ;
-  }
-
   .max-sm\:rounded-\[30px\] {
     border-radius: 30px;
-  }
-
-  .max-sm\:p-5 {
-    padding: 1.25rem;
-  }
-
-  .\*\:max-sm\:bg-\[\] > * {
-    background-color: ;
-  }
-
-  .\*\:max-sm\:bg-\[_center\] > * {
-    background-color: center;
-  }
-
-  .\*\:max-sm\:bg-\[10_center\] > * {
-    background-color: 10 center;
-  }
-
-  .\*\:max-sm\:bg-\[10p_center\] > * {
-    background-color: 10p center;
-  }
-
-  .\*\:max-sm\:bg-\[1em\] > * {
-    background-position: 1em;
-  }
-
-  .\*\:max-sm\:bg-\[1em_center\] > * {
-    background-position: 1em center;
-  }
-
-  .\*\:max-sm\:bg-\[10px_center\] > * {
-    background-position: 10px center;
   }
 
   .\*\:max-sm\:bg-\[left_center\] > * {
